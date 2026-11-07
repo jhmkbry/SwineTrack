@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en" data-type="software">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/swinetrack-logo.png">
+    <title>SwineTrack — Swine traceability for Laguna</title>
+    <meta name="description"
+        content="Connect farms, field technicians and local authorities with farm-to-market swine traceability in Laguna.">
+    <meta name="page-type" content="software">
+    <meta name="site-kind" content="software">
+    <meta name="theme-color" content="#174e38">
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+        <div class="wrap nav"><a class="brand" href="#" aria-label="SwineTrack home"><span class="brand-logo"><img
+                        src="assets/swinetrack-logo.png" alt="" width="40"
+                        height="40"></span><span>SwineTrack<small>Traceability platform · Laguna</small></span></a>
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span></button><nav id="main-navigation" aria-label="Main navigation"><a href="#workflow">How it works</a><a class="roles-nav"
+                    href="#portals">Roles</a><a class="button small" href="#portal-access" data-portal-open>Choose your
+                    portal <span aria-hidden="true">↗</span></a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="hero" data-enter>
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <h1>Swine traceability,<br>from farm<br><span class="hero-accent">to market.</span></h1>
+                    <p>One digital identity for every pig. Connect farm owners, field teams and local authorities across
+                        Laguna in one shared record.</p><a class="button" href="#portal-access" data-portal-open>Choose
+                        your portal <span aria-hidden="true">↗</span></a><a class="text-link" href="#workflow">See how
+                        the roles connect <span aria-hidden="true">↓</span></a>
+                    <div class="hero-foot"><span>QR-based identity</span><span>Connected data</span><span>5 connected
+                            roles</span></div>
+                </div>
+                <div class="hero-product">
+                    <div class="hero-pig"><img src="assets/swine-hero.png" width="1536" height="1024"
+                            alt="Pink Landrace pig with a green identification tag" fetchpriority="high"></div>
+                    <div class="record" aria-label="Illustrative swine traceability record">
+                        <div class="record-top"><span>SwineTrack / Animal record</span><span class="demo">Illustrative
+                                record</span></div>
+                        <div class="animal">
+                            <div class="qr" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none"
+                                    stroke="currentColor" stroke-width="5">
+                                    <path d="M5 5h24v24H5zM51 5h24v24H51zM5 51h24v24H5z" />
+                                    <path d="M13 13h8v8h-8zM59 13h8v8h-8zM13 59h8v8h-8z" fill="currentColor" />
+                                    <path d="M40 4v16m0 15h15v15H40v25m15-10h20M65 40h10v15M55 75h20" />
+                                </svg></div>
+                            <div>
+                                <h2>TAG-2026-904</h2>
+                                <p>Landrace Cross · Fattener · 78 kg</p>
+                            </div>
+                        </div>
+                        <div class="record-fields">
+                            <div><span>Origin farm</span><strong>Dela Cruz Farm #1</strong></div>
+                            <div><span>Municipality</span><strong>San Nicanor</strong></div>
+                        </div>
+                        <h3>Traceability timeline</h3>
+                        <ol class="timeline">
+                            <li><span class="node">1</span>
+                                <div><strong>Registered at the farm</strong>
+                                    <p>Digital identity assigned by the farm owner</p>
+                                </div><span class="status">Recorded</span>
+                            </li>
+                            <li><span class="node">2</span>
+                                <div><strong>Field inspection recorded</strong>
+                                    <p>Technician report #INS-802</p>
+                                </div><span class="status">Recorded</span>
+                            </li>
+                            <li><span class="node">3</span>
+                                <div><strong>Movement clearance checked</strong>
+                                    <p>Local QR or OPV shipping permit</p>
+                                </div><span class="status">Checked</span>
+                            </li>
+                            <li class="pending"><span class="node">4</span>
+                                <div><strong>Slaughterhouse inspection</strong>
+                                    <p>Ante- and post-mortem clearance</p>
+                                </div><span class="status">Pending</span>
+                            </li>
+                        </ol>
+                        <div class="record-bottom">One identity. A connected history.<span aria-hidden="true">↗</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portals">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Five roles. One connected system.</h2>
+                    <p>Each role contributes to the traceability record, from farm registration to meat inspection.</p>
+                </div>
+                <div class="roles" id="roles"></div>
+            </div>
+        </section>
+        <section id="workflow">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>How the roles connect</h2>
+                    <p>Follow how farm records, field observations and movement checks connect across the five roles.
+                    </p>
+                </div>
+                <div class="flow">
+                    <article><span>01 / REGISTER</span>
+                        <h3>Farm owner → MAO</h3>
+                        <p>Farm details and reported animal-health concerns enter the municipal verification and
+                            field-monitoring workflow.</p>
+                    </article>
+                    <article><span>02 / ASSIGN & REPORT</span>
+                        <h3>MAO ↔ Technician</h3>
+                        <p>MAO assigns field visits. Technicians return observations, follow-up details and referrals
+                            for review.</p>
+                    </article>
+                    <article><span>03 / CHECK MOVEMENT</span>
+                        <h3>Farm / OPV → Slaughterhouse</h3>
+                        <p>A local movement QR identifies the pig and destination. OPV separately reviews
+                            interprovincial shipping applications.</p>
+                    </article>
+                    <article><span>04 / MONITOR</span>
+                        <h3>All roles → OPV</h3>
+                        <p>Municipal throughput, disease incidents and slaughter records support province-wide
+                            monitoring and analysis.</p>
+                    </article>
+                </div>
+                <div class="closing">
+                    <p>Start with the work you do.</p><a class="button" href="#portal-access" data-portal-open>Choose
+                        your portal <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap"><a class="brand" href="#"><span class="brand-logo"><img src="assets/swinetrack-logo.png"
+                        alt="" width="40" height="40"></span>SwineTrack</a><span>Municipal swine traceability ·
+                Laguna</span><span>© 2026 SwineTrack</span></div>
+    </footer>
+    <dialog id="portal-access" aria-labelledby="portal-title">
+        <div class="portal-header">
+            <h2 id="portal-title">Choose your portal</h2><button type="button" class="portal-close"
+                aria-label="Close portal selector">×</button>
+        </div>
+        <p>Select your role to access your workspace.</p>
+        <div id="portal-options"></div>
+        <div id="portal-next" hidden><button type="button" class="portal-back">← All roles</button>
+            <h3 id="selected-role"></h3>
+            <p id="selected-description"></p><a class="button" id="portal-login">Sign in ↗</a><a class="portal-register"
+                id="portal-register">Create account ↗</a>
+        </div>
+    </dialog>
+    <script src="landing.js"></script>
+</body>
+
+</html>
